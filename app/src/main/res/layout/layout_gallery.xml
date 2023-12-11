@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--        ACHIVEMENT section    -->
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="380dp"
+                        android:layout_height="420dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="20dp"
+                        app:cardBackgroundColor="#C5D8FA"
+                        app:cardCornerRadius="30dp"
+                        app:cardElevation="8dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="300dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/prashant" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:text="UNIVERSITY TOPPERS "
+                                android:textColor="#0800FF"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:drawableEnd="@drawable/topper"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:text="Prashant Kumar AKU BCA Topper 2019"
+                                android:textColor="@color/black" />
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="380dp"
+                        android:layout_height="420dp"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="#C5D8FA"
+                        app:cardCornerRadius="30dp"
+                        app:cardElevation="8dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="300dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/dhiraj" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:text="UNIVERSITY TOPPERS "
+                                android:textColor="#0800FF"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:drawableEnd="@drawable/topper"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_gravity="center"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center"
+                                android:text="Dhiraj Kumar AKU BCA Topper 2016"
+                                android:textColor="@color/black" />
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="380dp"
+                        android:layout_height="420dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="20dp"
+                        app:cardBackgroundColor="#C5D8FA"
+                        app:cardCornerRadius="30dp"
+                        app:cardElevation="8dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="300dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/shuriti_kumari" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:text="UNIVERSITY TOPPERS "
+                                android:textColor="#0800FF"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:drawableEnd="@drawable/topper"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:text="Shruti Kumari AKU BBA Topper 2018"
+                                android:textColor="@color/black" />
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="380dp"
+                        android:layout_height="420dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="20dp"
+                        app:cardBackgroundColor="#C5D8FA"
+                        app:cardCornerRadius="30dp"
+                        app:cardElevation="8dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="300dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/divyanshu" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:text="UNIVERSITY TOPPERS "
+                                android:textColor="#0800FF"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:drawableEnd="@drawable/topper"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:text="Divyanshu Kumar AKU BBA Topper 201"
+                                android:textColor="@color/black" />
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+                </LinearLayout>
+
+
+</ScrollView>
+</LinearLayout>

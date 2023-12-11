@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <!-- Scroll View -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Main Child of Scroll View-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg3">
+
+            <!-- Tool Bar -->
+            <include layout="@layout/app_toolbar" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/register" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/adm_form_background"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:text="REGISTER"
+                android:textColor="@color/black"
+                android:textColorHighlight="#FF0000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+
+            <!-- Registraion -->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="20sp"
+                android:backgroundTint="#5effffff"
+                app:cardElevation="0dp"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="300sp"
+                    android:orientation="vertical"
+                    android:padding="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <!-- Email -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email *"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+
+                    <!-- Choose Counselling Done By/Spoken on phone with -->
+                    <EditText
+                        android:id="@+id/edt_email_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/adm_form_background"
+                        android:ems="15"
+                        android:hint="Enter Your Email Id"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text=" Counselling Done By/Spoken on phone with *"
+                        android:textColor="@color/black"
+                        android:textSize="13dp" />
+
+                    <Spinner
+                        android:id="@+id/spnr_counselling"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/adm_form_background"
+                        android:entries="@array/counsellors_name"
+                        android:paddingLeft="10dp"/>
+
+
+                    <!-- Name -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10sp"
+                        android:text="Enter Name *"
+                        android:textColor="@color/black"
+                        android:textSize="13dp" />
+
+
+                    <EditText
+                        android:id="@+id/edt_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/adm_form_background"
+                        android:ems="15"
+                        android:paddingLeft="10dp"
+                        android:hint="Enter Your Name"
+                         />
+
+
+                    <!-- Phone Number -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Mobile *"
+                        android:textColor="@color/black"
+                        android:textSize="13dp" />
+
+                    <EditText
+                        android:id="@+id/edt_mobile_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/adm_form_background"
+                        android:ems="15"
+                        android:hint="Enter Your Phone Number"
+                        android:inputType="number|phone"
+                        android:paddingLeft="10dp" />
+
+                    <!-- Date Of Birth -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Date Of Birth *"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edt_dob"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/adm_form_background"
+                        android:ems="15"
+                        android:hint="Enter Your Date Of Birth"
+                        android:inputType="date"
+                        android:paddingLeft="10dp" />
+
+                    <!-- Gender -->
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Gender *"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+                    <Spinner
+                        android:id="@+id/spnr_gender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:entries="@array/gender"
+
+                        />
+
+                    <!-- Category -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Category *"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+                    <Spinner
+                        android:id="@+id/spnr_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:entries="@array/category"
+                        />
+
+                    <!-- Course -->
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text=" Course *"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+                    <Spinner
+                        android:id="@+id/spnr_course_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:paddingLeft="10dp"
+                        android:background="@drawable/adm_form_background"
+                        android:entries="@array/course_name" />
+
+
+
+
+                    <!-- Submit Registration Form -->
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_registration"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/button_apply"
+                        android:padding="5sp"
+                        android:text="Submit"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <!-- Main child of scroll view close -->
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

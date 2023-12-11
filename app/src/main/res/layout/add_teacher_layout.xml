@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:background="@drawable/bg3"
+    android:gravity="top">
+    <include layout="@layout/app_toolbar"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/teacher"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="ADD TEACHERS"
+        android:background="@drawable/adm_form_background"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textColorHighlight="#FF0000"
+        android:layout_marginBottom="30dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#A3FDFDFD"
+        app:cardCornerRadius="30dp"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        app:cardElevation="0dp"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teacher name"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+
+                android:layout_marginTop="20dp"/>
+
+
+
+            <EditText
+                android:id="@+id/edt_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:hint="enter teacher name"
+                android:paddingLeft="10dp"
+                android:background="@drawable/login_border"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password "
+                android:textSize="16dp"
+                android:textColor="@color/black"
+
+                android:layout_marginTop="20dp"/>
+
+
+
+            <EditText
+                android:id="@+id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textPassword"
+                android:layout_marginTop="10dp"
+                android:hint="enter teacher password"
+                android:paddingLeft="10dp"
+                android:background="@drawable/login_border"
+
+
+                />
+
+
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:text="College" />
+
+            <Spinner
+                android:id="@+id/spnr_universiity_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/colllege_name"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+
+
+                />
+
+            <Button
+                android:id="@+id/btn_add_user"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Add Teacher"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_apply"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

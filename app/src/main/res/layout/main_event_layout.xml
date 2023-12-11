@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <include layout="@layout/app_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="600dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/news_bg"/>
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewPagerhero"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="136dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_marginRight="10dp"/>
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="600dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/news_bg2"/>
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewPagerplacement"
+                    android:layout_width="240sp"
+                    android:layout_height="160sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="160dp"
+                    android:layout_marginRight="15dp"/>
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewPagermedia"
+                    android:layout_width="210dp"
+                    android:layout_height="160dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="380dp"
+                    android:layout_marginLeft="10sp"
+
+                    />
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+
+
+

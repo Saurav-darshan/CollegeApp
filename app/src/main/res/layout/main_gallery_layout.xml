@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <include layout="@layout/app_toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Achievement Gallery "
+                android:background="@drawable/adm_form_background"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textColorHighlight="#FF0000"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20dp"
+                />
+
+<!--        ACHIVEMENT section    -->
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <!--        ACHIVEMENT section    -->
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="380dp"
+                                android:layout_height="420dp"
+                                android:layout_gravity="center"
+                                android:layout_margin="20dp"
+                                app:cardBackgroundColor="#E1C5D8FA"
+                                app:cardCornerRadius="30dp"
+                                app:cardElevation="0dp"
+                                >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    >
+
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="300dp"
+                                        android:scaleType="fitXY"
+                                        android:src="@drawable/prashant" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="10dp"
+                                        android:text="UNIVERSITY TOPPERS "
+                                        android:textColor="#0800FF"
+                                        android:gravity="center"
+                                        android:layout_gravity="center"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:drawableEnd="@drawable/topper"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:fontFamily="sans-serif-medium"
+                                        android:gravity="center"
+                                        android:layout_gravity="center"
+                                        android:text="Prashant Kumar AKU BCA Topper 2019"
+                                        android:textColor="@color/black" />
+
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="380dp"
+                                android:layout_height="420dp"
+                                android:layout_gravity="center"
+                                app:cardBackgroundColor="#E1C5D8FA"
+                                app:cardCornerRadius="30dp"
+                                app:cardElevation="0dp"
+                                >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    >
+
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="300dp"
+                                        android:scaleType="fitXY"
+                                        android:src="@drawable/dhiraj" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="10dp"
+                                        android:text="UNIVERSITY TOPPERS "
+                                        android:textColor="#0800FF"
+                                        android:layout_gravity="center"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:drawableEnd="@drawable/topper"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_gravity="center"
+                                        android:fontFamily="sans-serif-medium"
+                                        android:gravity="center"
+                                        android:text="Dhiraj Kumar AKU BCA Topper 2016"
+                                        android:textColor="@color/black" />
+
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="380dp"
+                                android:layout_height="420dp"
+                                android:layout_gravity="center"
+                                android:layout_margin="20dp"
+                                app:cardBackgroundColor="#E1C5D8FA"
+                                app:cardCornerRadius="30dp"
+                                app:cardElevation="0dp"
+                                >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    >
+
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="300dp"
+                                        android:scaleType="fitXY"
+                                        android:src="@drawable/shuriti_kumari" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="10dp"
+                                        android:text="UNIVERSITY TOPPERS "
+                                        android:textColor="#0800FF"
+                                        android:gravity="center"
+                                        android:layout_gravity="center"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:drawableEnd="@drawable/topper"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:fontFamily="sans-serif-medium"
+                                        android:gravity="center"
+                                        android:layout_gravity="center"
+                                        android:text="Shruti Kumari AKU BBA Topper 2018"
+                                        android:textColor="@color/black" />
+
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="380dp"
+                                android:layout_height="420dp"
+                                android:layout_gravity="center"
+                                android:layout_margin="20dp"
+                                app:cardBackgroundColor="#E1C5D8FA"
+                                app:cardCornerRadius="30dp"
+                                app:cardElevation="0dp"
+                                >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    >
+
+
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="300dp"
+                                        android:scaleType="fitXY"
+                                        android:src="@drawable/divyanshu" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="10dp"
+                                        android:text="UNIVERSITY TOPPERS "
+                                        android:textColor="#0800FF"
+                                        android:gravity="center"
+                                        android:layout_gravity="center"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:drawableEnd="@drawable/topper"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:fontFamily="sans-serif-medium"
+                                        android:gravity="center"
+                                        android:layout_gravity="center"
+                                        android:text="Divyanshu Kumar AKU BBA Topper 201"
+                                        android:textColor="@color/black" />
+
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+
+
+
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+<!--            event section-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Event Gallery"
+                android:background="@drawable/adm_form_background"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textColorHighlight="#FF0000"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20dp"
+                />
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <androidx.cardview.widget.CardView
+
+                        android:layout_width="380dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="20dp"
+                        app:cardBackgroundColor="#E1C5D8FA"
+                        app:cardCornerRadius="30dp"
+                        app:cardElevation="0dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            >
+                            <!-- Independence Day ViewPager -->
+                            <androidx.viewpager.widget.ViewPager
+                                android:id="@+id/viewPagerIndependence"
+                                android:layout_width="match_parent"
+                                android:layout_height="300dp"
+
+                                android:layout_marginBottom="10dp"
+                                android:layout_centerHorizontal="true" />
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="INDEPENDENCE DAY 2023 "
+                                android:textColor="#0800FF"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="Independence Day Celebration at CIMAGE. Prof. Neeraj Agrawal, Director of CIMAGE hoisted the Flag and addressed the students. On the occasion of Independence Day, many students performed dance, singing, and speech. The most famous sweet Jalebi was distributed to the students.  "
+                                android:gravity="center"
+
+
+                                />
+
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+
+                        android:layout_width="380dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="20dp"
+                        app:cardBackgroundColor="#E1C5D8FA"
+                        app:cardCornerRadius="30dp"
+                        app:cardElevation="0dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            >
+                            <!-- Krantitirth ViewPager -->
+                            <androidx.viewpager.widget.ViewPager
+                                android:id="@+id/viewPagerKranti"
+                                android:layout_width="match_parent"
+                                android:layout_height="300dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_centerHorizontal="true"
+                                />
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="KRANTITIRTH PROGRAM "
+                                android:textColor="#0800FF"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:text="Students of CIMAGE Group of Institutions have participated and won Group Dance Competition “क्रांतितीर्थ”, Organized by संस्कृति मंत्रालय, भारत सरकार and “संस्कार भारती, बिहार”. More than 40 Schools and colleges have participated in the competition."
+                                android:gravity="center"
+
+
+                                />
+
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="#E1C5D8FA"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="0dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        >
+                        <!-- Holi Mela ViewPager -->
+                        <androidx.viewpager.widget.ViewPager
+                            android:id="@+id/viewPagerHoli"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_centerHorizontal="true"
+                          />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="HOLI MELA 2023"
+                            android:textColor="#0800FF"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:gravity="center"
+                            android:text="This Holi celebration at CIMAGE College was not just a fun event; it was a testament to the fact that CIMAGE is more than just an educational institution. It is a family that nurtures the growth of its members, both academically and personally."
+
+
+                            />
+
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+<!--            social  section-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Social Initiatives"
+                android:background="@drawable/adm_form_background"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textColorHighlight="#FF0000"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20dp"
+                />
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#E1C5D8FA"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="0dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewPagerCsr"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"/>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CORPORATE SOCIAL RESPONSIBILITY "
+                        android:textColor="#0800FF"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+
+                        />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:padding="20dp"
+                        android:text=" CIMAGE Group of Institutions has always been committed to fulfilling its social responsibility towards the community. As a part of this commitment, the CIMAGE Group of Institutions has taken up the initiative to help weaker section children by providing them with educational supplies, food, or education.
+"
+                        android:textColor="@color/black" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
+
+
+
+
+

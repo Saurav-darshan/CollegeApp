@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="navigation_open">open nav</string>
+    <string name="navigation_close">close nav</string>
+    <string name="description"><![CDATA[CIMAGE Group of Institutions is ranked as top BCA college in Patna, Bihar which offers world-class education and highest Campus Placement. It is one of the best colleges across Bihar for BCA, BBA and other IT-Management Courses. For students who are seeking admission to a renowned institution for campus placement, CIMAGE is a perfect choice. When it comes to the Top BCA college in Patna, Bihar, CIMAGE has always been the first choice of students. Along with BCA course it also offers BBA, BBM, BSc.IT, PGDM, & B.Com (P) Courses with Campus Placement facility]]></string>
+    <string-array name="course_name">
+        <item>Please choose an option</item>
+        <item>B.C.A</item>
+        <item>B.B.A</item>
+        <item>B.sc IT</item>
+        <item>BBM</item>
+        <item>B.Com(P)</item>
+        <item>PGDM</item>
+    </string-array>'
+    <string-array name="university_name">
+        <item>Please choose an option</item>
+        <item>AKU</item>
+        <item>PPU</item>
+        <item>AIMA</item>
+    </string-array>
+    <string-array name="colllege_name">
+        <item>Please choose an option</item>
+        <item>CIMAGE Professional College</item>
+        <item>CIMAGE</item>
+        <item>Catalyst College</item>
+        <item>SSSLAPTM</item>
+
+    </string-array>'
+    <string-array name="role">
+        <item>Please choose an option</item>
+        <item>TEACHERS</item>
+        <item>STUDENTS</item>
+        <item>EVERYONE</item>
+
+    </string-array>'
+    <string-array name="semester">
+        <item>Please choose an option</item>
+        <item>1st SEMESTER</item>
+        <item>2nd SEMESTER</item>
+        <item>3rd SEMESTER</item>
+        <item>4th SEMESTER</item>
+        <item>5th SEMESTER</item>
+        <item>6th SEMESTER</item>
+
+
+    </string-array>'
+    <string-array name="subject">
+        <item>Please choose an option</item>
+        <item>JAVA</item>
+        <item>C++</item>
+        <item>OS</item>
+        <item>SAD</item>
+        <item>MATHS</item>
+        <item>PHP</item>
+
+
+    </string-array>'
+
+
+    <string-array name="counsellors_name">
+        <item>-- Please choose an option --</item>
+        <item>Shabina</item>
+        <item>Manisha</item>
+        <item>Poonam</item>
+        <item>Sapna</item>
+        <item>Vandana</item>
+        <item>Riya Mam</item>
+        <item>Ananya Mam</item>
+        <item>Roshini Mam</item>
+        <item>Prachi Mam</item>
+        <item>Puja Mam</item>
+        <item>Not Spoken With Anyone</item>
+        <item>Don\'t Remember The Name</item>
+    </string-array>
+
+    <string-array name="gender">
+    <item>Please choose an option</item>
+    <item>MALE</item>
+    <item>FEMALE</item>
+    <item>OTHER</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>Please choose an option</item>
+        <item>GENERAL</item>
+        <item>EWC</item>
+        <item>OBC</item>
+        <item>SC</item>
+        <item>ST</item>
+    </string-array>
+    <string-array name="payment">
+        <item>Please choose an option</item>
+        <item>PhonePe</item>
+        <item>Google Pay</item>
+        <item>Patym</item>
+        <item>Other UPI</item>
+        <item>Net Banking</item>
+        <item>Debit Card</item>
+
+
+    </string-array>'
+
+
+
+
+
+
+<string name="description_main"> "CIMAGE Group consist of 3 Colleges Under Patliputra University, and 1 College under Aryabhatta Knowledge University.
+\nCIMAGE is the only Super Resource Centre of IIT Bombay in Bihar.</string>
+    <string name="hint_pick_up_date">dd/mm/yyyy</string>
+
+
+</resources>

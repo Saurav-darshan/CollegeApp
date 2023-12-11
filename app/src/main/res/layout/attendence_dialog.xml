@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student"
+
+
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:background="#0F29B8"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/txttotalstudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Student :"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txtpresentstudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Present Student :"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/txtabsentstudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Absent Student :"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textStyle="bold"
+
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:background="@drawable/button_apply"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="35dp"
+        android:typeface="serif"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

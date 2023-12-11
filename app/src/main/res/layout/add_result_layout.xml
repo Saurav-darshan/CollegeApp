@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_toolbar" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/results" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/adm_form_background"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="ADD RESULT"
+        android:textColor="@color/black"
+        android:textColorHighlight="#FF0000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardCornerRadius="30dp"
+        android:backgroundTint="#5effffff"
+        app:cardElevation="0dp"
+
+
+        >
+
+
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:scrollbars="none">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="20dp"
+              tools:ignore="ExtraText"
+              >
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+                  android:text="Exam:"
+                  android:textColor="@color/black"
+                  android:textSize="16dp"
+                  android:textStyle="bold" />
+
+
+              <EditText
+                  android:id="@+id/exam_name"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp"
+                  android:layout_marginTop="10dp"
+                  android:background="@drawable/login_border"
+                  android:hint="enter exam name"
+                  android:inputType="text"
+                  android:paddingLeft="10dp"
+
+
+
+                  />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+                  android:text="Result url"
+                  android:textColor="@color/black"
+                  android:textSize="16dp"
+                  android:textStyle="bold" />
+
+
+              <EditText
+                  android:id="@+id/result_url"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp"
+                  android:layout_marginTop="10dp"
+                  android:background="@drawable/login_border"
+                  android:hint="enter Result URL"
+                  android:inputType="text"
+                  android:paddingLeft="10dp"
+
+
+                  />
+
+
+              />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+                  android:text="University"
+                  android:textColor="@color/black" />
+
+              <Spinner
+                  android:id="@+id/spnr_universiity_name"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginBottom="10dp"
+                  android:entries="@array/university_name"
+
+                  />
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+                  android:text="SEMESTER"
+                  android:textColor="@color/black" />
+
+              <Spinner
+                  android:id="@+id/spnr_semester"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginBottom="10dp"
+                  android:entries="@array/semester"
+
+                  />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:text="Course"
+                  android:textColor="@color/black" />
+
+              <Spinner
+                  android:id="@+id/spnr_course_name"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginBottom="20dp"
+                  android:entries="@array/course_name"
+
+                  />
+
+              <Button
+                  android:id="@+id/btn_publish"
+                  android:layout_width="200dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="20dp"
+                  android:layout_marginBottom="20dp"
+                  android:background="@drawable/button_apply"
+                  android:text="publish"
+                  android:textColor="@color/white"
+                  android:textSize="20dp"
+                  android:textStyle="bold" />
+
+
+          </LinearLayout>
+      </ScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

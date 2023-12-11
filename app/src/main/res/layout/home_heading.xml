@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical">
+
+<!-- APP HEADING -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Welcome to CIMAGE \nGroup"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/description_main"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="90dp"
+                android:text="APPLY NOW"
+                android:textColor="@color/white"
+                android:background="@drawable/button_apply"
+                android:id="@+id/btn_apply"/>
+
+            <Button
+                android:id="@+id/btn_fee"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/button_fee"
+                android:text="FEE PAY"
+                android:textColor="@color/white" />
+        </LinearLayout>
+<!--        ENQUIRY FORM-->
+
+        <include layout="@layout/admission_enquiry"/>
+
+<!--        TIMES AWARD , EDUCATION CARD VIEW,COLLEGE DISCRIPTION    -->
+
+        <include  layout="@layout/education_cardview"/>
+
+        <include  layout="@layout/listview_grid"/>
+        <include  layout="@layout/layout_gallery"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+    </LinearLayout>
